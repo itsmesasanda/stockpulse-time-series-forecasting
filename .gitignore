@@ -1,0 +1,17 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+
+# Local datasets and model artifacts
+data/
+models/*.pkl
+models/*.joblib
+
+# System files
+.DS_Store
+.ipynb_checkpoints/
